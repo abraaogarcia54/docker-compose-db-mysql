@@ -13,7 +13,7 @@ Inclui persistência de dados.
 
 ---
 
-## 🛠️ Instalação no Windows
+## 🛠️ Instalação do WSL no Windows
 
 Verificar se o WSL 2 está instalado
 Abra o PowerShell e rode:
