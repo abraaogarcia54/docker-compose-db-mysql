@@ -1,0 +1,20 @@
+# Dados do MySQL - não subir banco real
+/data/mysql/
+
+# Arquivos grandes ou temporários
+*.rar
+*.zip
+*.tar
+*.gz
+
+# Logs
+*.log
+
+# IDEs e editores
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
