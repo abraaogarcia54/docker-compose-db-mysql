@@ -19,8 +19,6 @@ Se quiser reiniciar o banco do zero, apague a pasta de dados:
 ```bash
 rm -rf ./data/mysql
 
----
-
 ```
 ## 🚀 Como iniciar o container
 
