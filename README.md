@@ -7,9 +7,9 @@ Inclui persistência de dados, mas é possível apagar os dados para reiniciar o
 
 ## ⚡ Pré-requisitos
 
-Windows 10/11 com WSL 2 habilitado
-Docker Desktop instalado (configurado para usar WSL 2)
-Docker Compose (vem junto com o Docker Desktop)
+* Windows 10/11 com WSL 2 habilitado
+* Docker Desktop instalado (configurado para usar WSL 2)
+* Docker Compose (vem junto com o Docker Desktop)
 
 ---
 
