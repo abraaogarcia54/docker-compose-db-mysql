@@ -112,3 +112,4 @@ mysql -u root -p plots < /plots.sql
 ```bash
 mysql -u root -p
 ```
+
