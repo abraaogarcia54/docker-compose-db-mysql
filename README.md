@@ -30,7 +30,11 @@ wsl --install
 
 ## Instalar o Docker Desktop
 
-- [Download Docker Desktop](https://www.docker.com/products/docker-desktop/)
+* [Download Docker Desktop](https://www.docker.com/products/docker-desktop/)
+  
+* Durante a instalação, marque a opção “Use WSL 2 instead of Hyper-V”
+
+* Abra o Docker Desktop e aguarde ele inicializar.
 
 
 ## 🚀 Como iniciar o container
