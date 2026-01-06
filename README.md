@@ -1,7 +1,7 @@
-# Docker MySQL - db_mysql
+# Instalação WSL | Docker Desktop | Docker Compose MySQL - Sql-Server
 
-Este repositório contém um **Docker Compose** para subir uma instância MySQL (`db_mysql`) para desenvolvimento.  
-Inclui persistência de dados, mas é possível apagar os dados para reiniciar o banco do zero.
+Este repositório contém a instalação e verificação do WSL e do Docker Desktop e a criação de um **Docker Compose** para subir uma instância MySQL e Sql-Server para desenvolvimento.  
+Inclui persistência de dados.
 
 ---
 
@@ -27,6 +27,11 @@ wsl --list --verbose
 ```bash
 wsl --install
 ```
+
+## Instalar o Docker Desktop
+
+- [Download Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
 
 ## 🚀 Como iniciar o container
 
