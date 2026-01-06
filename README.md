@@ -36,6 +36,15 @@ wsl --install
 
 * Abra o Docker Desktop e aguarde ele inicializar.
 
+---
+
+## Testar o Docker
+
+* No PowerShell, rode
+
+```bash
+docker run hello-world
+```
 
 ## 🚀 Como iniciar o container
 
