@@ -25,6 +25,9 @@ db_mysql/data/
 .vscode/
 .idea/
 
+# SQL dumps grandes
+*.sql
+
 # Sistema operacional
 .DS_Store
 Thumbs.db
