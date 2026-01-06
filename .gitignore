@@ -1,14 +1,25 @@
 # Dados do MySQL - não subir banco real
 /data/mysql/
 
+# SQL Server data
+data/sqlserver/
+db_mysql_server/
+data/
+db_mysql/data/
+
 # Arquivos grandes ou temporários
 *.rar
 *.zip
 *.tar
 *.gz
 
+# Backups
+*.bak
+
 # Logs
 *.log
+*.trc
+*.xel
 
 # IDEs e editores
 .vscode/
@@ -17,4 +28,3 @@
 # Sistema operacional
 .DS_Store
 Thumbs.db
-
