@@ -2,8 +2,9 @@ version: "3.9"
 
 services:
   
-  mysql:
+  mysql56:
     image: mysql:5.6
+    platform: linux/amd64
     container_name: db_mysql
     restart: always
     environment:
@@ -17,6 +18,22 @@ services:
       - ./data/mysql:/var/lib/mysql
     networks:
       - dbnet
+
+  mysql80:
+    image: mysql:8.0
+    container_name: db_comercial
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: genesysjp
+      MYSQL_DATABASE: u733876307_comercialcloud
+      MYSQL_ROOT_HOST: "%"
+      TZ: America/Sao_Paulo
+    ports:
+      - 3366:3306
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+    networks:
+      - dbnet    
 
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2019-latest
