@@ -46,7 +46,7 @@ wsl --install
 docker run hello-world
 ```
 
-## 🚀 Como iniciar o container
+## Como iniciar o container
 
 No terminal, dentro da pasta do projeto:
 
@@ -54,7 +54,7 @@ No terminal, dentro da pasta do projeto:
 docker compose up -d
 ```
 
-## 🧹 Como apagar os dados
+## Como apagar os dados
 
 Se quiser reiniciar o banco do zero, apague a pasta de dados:
 
@@ -62,52 +62,52 @@ Se quiser reiniciar o banco do zero, apague a pasta de dados:
 rm -rf ./data/mysql
 ```
 
-## 🚀 Comandos para importar bancos MySql
+## Comandos para importar bancos MySql
 --- 
 
-🟩 PASSO 1 — ir até a pasta onde está o backup
+## PASSO 1 — ir até a pasta onde está o backup
 
 ```bash
 cd db_server/db_mysql
 ```
 --- 
 
-🟩 PASSO 2 — ver o nome do container MySQL
+## PASSO 2 — ver o nome do container MySQL
 
 ```bash
 docker ps
 ```
 ---
 
-🟩 PASSO 3 — copiar o arquivo para dentro do container
+## PASSO 3 — copiar o arquivo para dentro do container
 
 ```bash
 docker cp plots.sql db_mysql:/plots.sql
 ```
 ---
 
-🟩 PASSO 4 — entrar no container
+## PASSO 4 — entrar no container
 
 ```bash
 docker exec -it db_mysql bash
 ```
 ---
 
-🟩 PASSO 5 — criar o banco (se ainda não existir)
+## PASSO 5 — criar o banco (se ainda não existir)
 
 ```bash
 mysql -u root -p -e "CREATE DATABASE IF NOT EXISTS plots;"
 ```
 ---
 
-🟩 PASSO 6 — importar o backup
+## PASSO 6 — importar o backup
 
 ```bash
 mysql -u root -p plots < /plots.sql
 ```
 ---
 
-🟩 PASSO 7 — confirmar que importou
+## PASSO 7 — confirmar que importou
 
 ```bash
 mysql -u root -p
