@@ -115,3 +115,12 @@ mysql -u root -p plots < /plots.sql
 mysql -u root -p
 ```
 
+## Para servico local mysql -- Rodar como ADM --
+
+```bash
+net stop "MySQL_InfinitComercial"
+```
+
+
+
+
