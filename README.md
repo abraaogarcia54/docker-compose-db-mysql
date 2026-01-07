@@ -70,7 +70,7 @@ rm -rf ./data/mysql
 ## Passo 1 — ir até a pasta onde está o backup
 
 ```bash
-cd db_server/db_mysql
+cd db_server/db_comercial
 ```
 --- 
 
@@ -84,14 +84,14 @@ docker ps
 ## Passo 3 — copiar o arquivo para dentro do container
 
 ```bash
-docker cp plots.sql db_mysql:/plots.sql
+docker cp u733876307_comercialcloud.sql db_comercial:/u733876307_comercialcloud.sql
 ```
 ---
 
 ## Passo 4 — entrar no container
 
 ```bash
-docker exec -it db_mysql bash
+docker exec -it db_comercial bash
 ```
 ---
 
@@ -105,7 +105,7 @@ mysql -u root -p -e "CREATE DATABASE IF NOT EXISTS plots;"
 ## Passo 6 — importar o backup
 
 ```bash
-mysql -u root -p plots < /plots.sql
+mysql -u root -p u733876307_comercialcloud < /u733876307_comercialcloud.sql
 ```
 ---
 
