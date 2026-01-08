@@ -28,6 +28,9 @@ db_mysql/data/
 # SQL dumps grandes
 *.sql
 
+# MAS permite o schema do banco
+!schema.sql
+
 # Sistema operacional
 .DS_Store
 Thumbs.db
