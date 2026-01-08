@@ -98,7 +98,7 @@ docker exec -it db_comercial bash
 ## Passo 5 — criar o banco (se ainda não existir)
 
 ```bash
-mysql -u root -p -e "CREATE DATABASE IF NOT EXISTS plots;"
+mysql -u root -p -e "CREATE DATABASE IF NOT EXISTS u733876307_comercialcloud;"
 ```
 ---
 
